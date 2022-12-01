@@ -81,10 +81,10 @@ class MainActivity : ComponentActivity() {
                     LaunchedEffect(true) {
                         composableScope.launch {
                             try {
-                                Log.d(
+                               /* Log.d(
                                     "KMM",
                                     sdk.register("f12@gmail.com", "12345678").status.toString()
-                                )
+                                )*/
 
                             } catch (e: Exception) {
                                 Log.d(

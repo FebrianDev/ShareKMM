@@ -1,3 +1,19 @@
 <resources>
     <style name="Theme.ShareKMM" parent="Theme.MaterialComponents.DayNight.NoActionBar"/>
+
+    <style name="CustomCardViewStyleRight" parent="@style/Widget.MaterialComponents.CardView">
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearanceOverlay_card_custom_corners_right</item>
+    </style>
+
+    <style name="ShapeAppearanceOverlay_card_custom_corners_right" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeTopRight">0dp</item>
+        <item name="cornerSizeTopLeft">24dp</item>
+        <item name="cornerSizeBottomRight">0dp</item>
+        <item name="cornerSizeBottomLeft">24dp</item>
+    </style>
+
+    <color name="card_1">#0299D2</color>
+    <color name="card_2">#27A8D9</color>
+
 </resources>
